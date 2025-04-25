@@ -1,0 +1,18 @@
+# https://clangd.llvm.org/config
+CompileFlags:
+  CompilationDatabase: build/clangd
+  Add: -Wno-unqualified-std-cast-call
+
+Completion:
+  AllScopes: Yes
+  ArgumentLists: Delimiters # https://clangd.llvm.org/config#argumentlists Since clangd-20
+  HeaderInsertion: IWYU
+
+InlayHints:
+  Enabled: Yes
+  BlockEnd: Yes
+  Designators: Yes
+  ParameterNames: Yes
+  DeducedTypes: Yes
+  DefaultArguments: Yes # Since clangd-20
+  TypeNameLimit: 0 # Nolimit

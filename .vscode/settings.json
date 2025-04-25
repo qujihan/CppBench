@@ -1,0 +1,12 @@
+{
+    "trae.chatLanguage": "cn",
+    "trae.codeCompletionPro": {
+        "enableCodeCompletionPro": false
+    },
+    "trae.enableCodelens": {
+        "enableInlineDocumentation": false,
+        "enableInlineUnitTest": false,
+        "enableInlineExplain": false
+    },
+    "trae.enableInlineCommand": false
+}
